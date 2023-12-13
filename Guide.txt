@@ -1,0 +1,7 @@
+ javac -d . server.java
+ javac -d . greeting Client.java
+ javac -d . gameRoom.java
+ javac -d . sqlDB.java
+ java TCP.server 6666
+ java TCP.greetingClient localhost 6666
+ java TCP.gameRoom localhost 6666
